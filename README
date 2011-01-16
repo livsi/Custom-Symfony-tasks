@@ -12,8 +12,17 @@ For update to last version:
 --------------
 
 USAGE:
+===
 For generate symlink to symfony/data/web/sf from web folder type:
 > utask:linkSf
-
+===
 For clear log, except empty .sf file in log directory (need for add folder in git repo):
 > log:clear-sf
+===
+For add .sf files in log/ and cache/ :
+> utask:sf
+
+Add this line in you root .gitignore for add empty folders log/ and cache/ under git control:
+> !.sf
+> /cache/*
+> /log/*

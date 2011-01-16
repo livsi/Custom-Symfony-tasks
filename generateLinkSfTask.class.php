@@ -18,11 +18,11 @@ class generateLinkSfTask extends sfBaseTask
     $this->name             = 'linkSf';
     $this->briefDescription = 'Publish symlink to symfony/data/web/sf from web folder';
     $this->detailedDescription = <<<EOF
-The [generate:linkSf|INFO] task will publish symlink to symfony/data/web/sf from web folder.
+The [utask:linkSf|INFO] task will publish symlink to symfony/data/web/sf from web folder.
 
 Call it with:
 
-  [php symfony generate:linkSf|INFO]
+  [php symfony utask:linkSf|INFO]
 EOF;
   }
 
