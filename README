@@ -1,5 +1,9 @@
 This my custom pack of tasks for use in symfony 1.4
-For install as submodule in ypu project type this:
+For install as submodule in you project type this in console:
 
 > mkdir -p lib/task
 > git submodule add git://github.com/livsi/Custom-Symfony-tasks.git lib/task/ltask
+
+For update to last version:
+> cd lib/task/ltask
+> git pull
