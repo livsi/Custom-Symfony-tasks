@@ -14,7 +14,7 @@ class generateLinkSfTask extends sfBaseTask
     //   new sfCommandOption('my_option', null, sfCommandOption::PARAMETER_REQUIRED, 'My option'),
     // ));
 
-    $this->namespace        = 'generate';
+    $this->namespace        = 'utask';
     $this->name             = 'linkSf';
     $this->briefDescription = 'Publish symlink to symfony/data/web/sf from web folder';
     $this->detailedDescription = <<<EOF
