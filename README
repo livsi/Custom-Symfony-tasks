@@ -2,12 +2,16 @@ This my custom pack of tasks for use in symfony 1.4
 --------------
 For install as submodule in you project type this in console:
 > mkdir -p lib/task
-> git submodule add git://github.com/livsi/Custom-Symfony-tasks.git lib/task/ltask
+> git submodule add git://github.com/livsi/Custom-Symfony-tasks.git lib/task/utask
 
 --------------
 For update to last version:
-> cd lib/task/ltask
+> cd lib/task/utask
 > git pull
+
+Or from root directory you project:
+
+> git submodule update --init lib/task/utask
 
 --------------
 
